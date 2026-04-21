@@ -4,7 +4,7 @@
  */
 
 const GEMINI_API_KEY = "AIzaSyBq9Wwwmv-H0AKl0c1qjrBAVO5vM-gME1E";
-const GEMINI_URL     = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_URL     = `https://generativelanguage.googleapis.com/v1b/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 let chatHistory    = [];
 let currentDisease = null;
